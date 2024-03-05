@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Sidebar from './ui/sidebar/sidebar'
 const page = () => {
   return (
-    <div>page</div>
+    <div className='h-sreen w-screen'>
+      <Sidebar />
+    </div>
   )
 }
 

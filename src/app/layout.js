@@ -1,16 +1,19 @@
-import "./globals.css";
-import ToggleColorMode from "./components/themeRegestry";
+import { ThemeProvider } from "@mui/system";
+
+
 export const metadata = {
   title: "Echo-Watch",
   description: "Echo-Watch Webapp",
 };
 
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>     
-        {children}
-      </body>
+    <html
+      lang="en"
+      
+    >
+      <body>{children}</body>
     </html>
   );
 }

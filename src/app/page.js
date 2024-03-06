@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './ui/sidebar/sidebar'
 const page = () => {
   return (
-    <div className='h-sreen w-screen'>
+    <div className=''>
       <Sidebar />
     </div>
   )

@@ -1,11 +1,9 @@
-'use client'
 import React from 'react'
 
-export default function Page() {
+const Statisticspage = () => {
   return (
-    
-      <div>
-        Page
-      </div>
+    <div>Statspage</div>
   )
 }
+
+export default Statisticspage;

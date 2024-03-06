@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@mui/system";
-
+import './ui/globals.css';
 
 export const metadata = {
   title: "Echo-Watch",
